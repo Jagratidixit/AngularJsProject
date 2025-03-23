@@ -7,8 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Helloworld';
-  // UC2
   message: string = 'Hello from BridgeLabz';
   logoUrl: string = './assets/bridgelabz_logo.jpg'; 
-
+  bridgeLabzSite: string = 'https://www.bridgelabz.com'; 
 }
