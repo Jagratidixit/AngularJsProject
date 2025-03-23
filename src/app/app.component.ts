@@ -10,4 +10,6 @@ export class AppComponent {
   message: string = 'Hello from BridgeLabz';
   logoUrl: string = './assets/bridgelabz_logo.jpg'; 
   bridgeLabzSite: string = 'https://www.bridgelabz.com'; 
+  userName: string = '';  // Initialize userName
+
 }

@@ -1,12 +1,28 @@
+
 .container {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
   }
   
   img {
-    width: 200px;
+    width: 250px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     cursor: pointer;
+  }
+  
+  input {
+    width: 150px;
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    text-align: center;
   }
   

@@ -12,12 +12,26 @@
 </div> -->
 
 <!-- UC4 -->
-<div class="container">
+<!-- <div class="container">
   <h1>{{ message }}</h1>
   <a [href]="bridgeLabzSite" target="_blank">
     <img [src]="logoUrl" alt="BridgeLabz Logo">
   </a>
+</div> -->
+
+<!-- UC5 -->
+<div class="container">
+  <h1>Hello {{ userName }} ,from BridgeLabz </h1>
+  
+  <a [href]="bridgeLabzSite" target="_blank">
+    <img [src]="logoUrl" alt="BridgeLabz Logo">
+  </a>
+
+  <br><br>
+  <input type="text" [(ngModel)]="userName" placeholder="Enter your name">
 </div>
+
+
 
 
 
